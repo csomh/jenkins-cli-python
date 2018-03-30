@@ -59,7 +59,7 @@ A CLI for Jenkins CI
 
 
 %prep
-%autosetup -n %{srcname}-python-%{version}
+%autosetup
 
 # Adjust python-jenkins and pyfakefs versions for Fedora 25
 sed -i 's/python-jenkins==0.4.14/python-jenkins>=0.4.12/' requirements.txt setup.py
