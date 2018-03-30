@@ -9,7 +9,7 @@ Summary:        %{sum}
 
 License:        MIT
 URL:            https://pypi.python.org/pypi/jenkins-cli
-Source0:        v0.2.0.tar.gz
+Source0:        https://github.com/LD250/jenkins-cli-python/archive/v0.2.0.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  python2-devel python3-devel
